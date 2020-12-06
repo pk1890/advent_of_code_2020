@@ -1,0 +1,1 @@
+print(sum(list(map(lambda group: len(set(filter(lambda x: x != '\n', group))), open('input.txt').read().split("\n\n")))))
